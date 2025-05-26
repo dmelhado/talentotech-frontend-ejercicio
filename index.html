@@ -4,43 +4,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resources/css/styles.css">
+    <link rel="stylesheet" href="resources/css/servicios.css">
+    <link rel="stylesheet" href="resources/css/resenyas.css">
+    <link rel="stylesheet" href="resources/css/nav.css">
+    <link rel="stylesheet" href="resources/css/header.css">
+    <link rel="stylesheet" href="resources/css/footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telex Reparaciones</title>
 </head>
 
 <body>
-    <header>
-        <img src="logo_instagram.png" alt="telex_logo" width="500" height="500">
+    <header class="header">
+        <div class="header-content">
+            <img src="resources/images/logo.png" alt="Logo" width="150">
+            <h1>Telex Reparaciones <span>| Servicio Técnico</span></h1>
+        </div>
     </header>
     <nav>
         <ul>
-            <li><a href="">Inicio</a></li>
-            <li><a href="">Nosotros</a></li>
-            <li><a href="">Productos</a></li>
-            <li><a href="">Servicios</a></li>
-            <li><a href="">Contacto</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
     <main>
-        <form action="https://formspree.io/f/movdepng" method="POST">
-            <label for="nombre">Nombre: </label>
-            <input type="text" id="nombre" name="nombre">
+        <section class="servicios">
+            <h1>
+                Servicios
+            </h1>
+            <div class="contenedor-servicios">
+                <div class="servicios-card">
+                    <h2>
+                        Ventas
+                    </h2>
+                    <li>Equipos nuevos y reacondicionados</li>
+                    <li>Fundas y protectores de pantalla</li>
+                    <li>Cargadores y cables</li>
+                    <li>Auriculares</li>
+                    <li>Joysticks y juegos</li>
+                    <li>Regalos y articulos varios</li>
+                </div>
+                <div class="servicios-card">
+                    <h2>
+                        Reparaciones
+                    </h2>
+                    <li>Cambio de pantalla</li>
+                    <li>Reparación de pin de carga</li>
+                    <li>Flasheos</li>
+                    <li>Desbloqueos</li>
+                </div>
+                <div class="servicios-card">
+                    <h2>
+                        Limpieza y mantenimiento
+                    </h2>
+                    <ul>
+                        <li>Desarmado y limpieza profunda</li>
+                        <li>Limpieza de software</li>
+                        <li>Cambio de pasta térmica</li>
+                        <li>Reacondicionamiento de equipos para reventa</li>
+                        <li>Restauración de consolas retro</li>
+                    </ul>
+                </div>
+                <div class="servicios-card">
+                    <h2>
+                        Actualizaciones
+                    </h2>
+                    <ul>
+                        <li>Migración a a disco sólido</li>
+                        <li>Actualización de sistema operativo</li>
+                        <li>Aumento de RAM</li>
+                    </ul>
+                </div>
+                <div class="servicios-card">
+                    <h2>
+                        Modificaciones
+                    </h2>
+                    <ul>
+                        <li>Instalación de CFW de consolas modernas</li>
+                        <li>Chipeo de consolas antiguas</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-            <label for="cars">Elegir auto</label>
-            <select id="cars" name="cars">
-                <option value="renault">Renault</option>
-                <option value="chevrolet">Chevrolet</option>
-                <option value="fiat">Fiat</option>
-                <option value="ford">Ford</option>
-            </select>
-            <button type="submit">Send</button>
-        </form>
+        <section class="resenyas">
+            <h1>Reseñas</h1>
+            <div class="grid-resenyas">
+                <div class="card-resenya">
+                    <p>"Excelente atención y servicio. Recomendado 100%!"</p>
+                    <span>- Lucía M.</span>
+                </div>
+                <div class="card-resenya">
+                    <p>"Me arreglaron el celular en el día, ¡una genia la gente de Telex!"</p>
+                    <span>- Juan P.</span>
+                </div>
+                <div class="card-resenya">
+                    <p>"Muy buena onda y precios razonables. Volvería sin dudas."</p>
+                    <span>- Carla R.</span>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2025 Telex Reparaciones. Todos los derechos reservados.</p>
+                <p>📍 Pilar, Buenos Aires — 📞 (011) 1234-5678</p>
+                <p><a href="mailto:contacto@telex.com.ar">contacto@telex.com.ar</a></p>
+            </div>
+        </footer>
+
     </main>
-    <section>
-        Section
-    </section>
-    <footer>
-        Footer
-    </footer>
+</body>
 </body>
 
 </html>

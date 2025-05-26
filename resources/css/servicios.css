@@ -1,0 +1,33 @@
+.contenedor-servicios {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.servicios-card {
+    background-color: #94a4ac;
+    border: solid #1c1c24;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+.servicios h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.servicios-card h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.servicios-card ul {
+    padding-left: 20px;
+    margin: 0;
+    list-style-type: disc;
+}
